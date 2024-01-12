@@ -1,10 +1,10 @@
-// rafce
 import React from 'react';
+import SignUpForm from '@/components/form/SignUpForm';
 
 const page = () => {
     return (
-        <div className='bg-red-400 w-full'>
-            Sign Up
+        <div className='w-full'>
+            <SignUpForm />
         </div>
     );
 }
